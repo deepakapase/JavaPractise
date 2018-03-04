@@ -9,7 +9,7 @@ public class ContinueTest {
 		ContinueTest ct= new ContinueTest();
 		ContinueTest ct1= new ContinueTest();
 		ContinueTest ct2= ct1;
-		     //test
+		     
 		System.out.println(ct.equals(ct1));
 		System.out.println(ct1.equals(ct2));
 		ArrayList<Integer> numbers= new ArrayList<>();
