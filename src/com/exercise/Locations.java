@@ -23,12 +23,7 @@ public class Locations {
 	public static void getBrowser(){
 		driver.get("https://www.google.com/");
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
-<<<<<<< HEAD
-		driver.navigate().refresh();
-		
-=======
->>>>>>> 5eb317c94d60916ce225d5f893fa621f0a0f4e6f
-		
+		driver.navigate().refresh();		
 	}
 	
 	public static void getallLocations(){
@@ -41,10 +36,6 @@ public class Locations {
 		driver.findElement(By.xpath("//*[@id='rso']/div[1]/div/div/div[2]/div/div[4]/div[2]/div/div/a")).click();
 		List<WebElement> allLocations = new ArrayList<WebElement>();
 		allLocations = driver.findElements(By.xpath("//div[@class='cXedhc']"));
-<<<<<<< HEAD
-		driver.findElement(By.cssSelector("	"));
-=======
->>>>>>> 5eb317c94d60916ce225d5f893fa621f0a0f4e6f
 		System.out.println("Locations list size "+allLocations.size());
 		WebElement closePopup = driver.findElement(By.xpath("//div[@class='QU77pf']"));
 		WebDriverWait wait = new WebDriverWait(driver, 10);
