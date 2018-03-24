@@ -14,7 +14,7 @@ public static void commonElements(int [] arrayElements){
 			break;
 		}
 	}
-	if(isCommon){
+	if(isCommon){ 
 		System.out.println(arrayElements[i]);
 	}
 	
@@ -27,14 +27,14 @@ public static void commonElements(int [] arrayElements){
 	}
 	Iterator it = set.iterator();
 	while(it.hasNext()){
-		
+			System.out.println(it.next());
 	}
 
 
 }
 
 	public static void main(String args[]) {
-		int[] arrayNums = new int[] { 67, 78, 88, 67, 56,56 };
+		int[] arrayNums = new int[] { 67, 78, 88, 67, 56,56,45,54,32 };
 		commonElements(arrayNums);
 	}
 
