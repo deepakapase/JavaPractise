@@ -11,7 +11,6 @@ public class Fibonaaci {
 	public static void fibonacci(int n){
 		int a = 0;
 		int b = 1;
-		int sum =0;
 		int[] fib =new int[n];
 		fib[0] = 0;
 		fib[1] = 1;
