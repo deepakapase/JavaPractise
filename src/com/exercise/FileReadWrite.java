@@ -3,7 +3,6 @@ package com.exercise;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -20,7 +19,6 @@ public class FileReadWrite {
 	}
 	public static void readFile(){
 		File file = new File("C:\\NewFiles\\FileTest.txt");
-		char[] in = new char[50]; 
  		System.out.println(file.exists());
 		try{
 			boolean isFileCreated = file.createNewFile();
